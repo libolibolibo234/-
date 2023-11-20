@@ -1,0 +1,184 @@
+html,body {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+#center {
+    width: 100%;
+    min-width: 950px;
+    color: #000;
+}
+.header-container {
+    background-image: url('https://show.ybccode.com/common_static/disney/garden_bg1.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.banner-container {
+    width: 100%;
+    height: 840px;
+    background-image: url('https://show.ybccode.com/common_static/disney/garden_banner.png'); 
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.nav-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 60%;
+    padding: 30px 0 2px;
+    text-align: left;
+}
+.back-btn {
+    width: 28px;
+    height: 28px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+.arrow {
+    width: 28px;
+    height: 28px;
+    content: url('../image/black-arrow.png');
+}
+.logo {
+    display: inline-block;
+    width: 316px;
+    height: 49px;
+    content: url('../image/black-logo.png');
+}
+.overview-title {
+    font-size: 50px;
+    font-weight: 700;
+    margin: 20px 0 0;
+}
+.overview-img {
+    width: 900px;
+}
+.overview-text {
+    width: 52%;
+    font-size: 28px;
+    padding: 25px 0 60px;
+    margin: 0;
+}
+.intro-container {
+    background-image: url('https://show.ybccode.com/common_static/disney/garden_bg2.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding-bottom: 160px;
+}
+.intro-headline {
+    width: 300px;
+    margin: 70px 0;
+    content: url('https://show.ybccode.com/common_static/disney/product_2.png');
+}
+.intro-box {
+    margin-bottom: 228px;
+}
+.intro-box:nth-of-type(1) {
+    margin-bottom: 130px;
+}
+.intro-box:nth-of-type(2) {
+    margin-bottom: 130px;
+}
+.intro-box:nth-last-of-type(1) {
+    margin-bottom: 0;
+}
+.intro-box:nth-child(odd) .img-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.intro-box:nth-child(even) .img-list {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+}
+.intro-box:nth-child(odd) .intro-img {
+    margin-right: 35px;
+}
+.intro-box:nth-child(even) .intro-img {
+    margin-left: 35px;
+}
+.intro-img {
+    display: inline-block;
+    width: 610px;
+}
+.intro-box:nth-child(odd) .intro-text-box {
+    margin-left: 35px;
+}
+.intro-box:nth-child(even) .intro-text-box {
+    margin-right: 35px;
+}
+.intro-text-box {
+    width: 30%;
+    text-align: left;
+}
+.intro-title {
+    font-size: 38px;
+    font-weight: 700;
+    margin: 0 0 28px;
+}
+.intro-article {
+    font-size: 22px;
+    margin: 0;
+}
+@media(max-width: 1440px) {
+    .banner-container {
+        width: 100%;
+        height: 480px;
+    }
+    .nav-container {
+        padding: 16px 0;
+    }
+    .back-btn {
+        width: 18px;
+        height: 18px;
+    }
+    .back-btn img {
+        width: 18px;
+        height: 18px;
+    }
+    .logo {
+        width: 236px;
+        height: 38px;
+    }
+    .overview-title {
+        font-size: 40px;
+        line-height: 53px;
+    }
+    .overview-img {
+        width: 720px;
+    }
+    .overview-text {
+        width: 66%;
+        font-size: 20px;
+        padding: 25px 0 53px;
+    }
+    .intro-headline {
+        width: 230px;
+        margin: 60px 0 70px;
+    }
+    .intro-box:nth-child(odd) .intro-img {
+        margin-right: 20px;
+    }
+    .intro-box:nth-child(even) .intro-img {
+        margin-left: 20px;
+    }
+    .intro-img {
+        display: inline-block;
+        width: 488px;
+    }
+    .intro-box:nth-child(odd) .intro-text-box {
+        margin-left: 20px;
+    }
+    .intro-box:nth-child(even) .intro-text-box {
+        margin-right: 20px;
+    }
+    .intro-title {
+        font-size: 30px;
+    }
+    .intro-article {
+        font-size: 14px;
+    }
+}
